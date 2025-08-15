@@ -1,0 +1,78 @@
+{
+  "books": [
+    {
+      "id": "8c1c",
+      "type": "book",
+      "title": "Book 1",
+      "author": "Author 1",
+      "yearPublished": 2019
+    },
+    {
+      "id": "f43b",
+      "type": "book",
+      "title": "Book 2",
+      "author": "Author 2",
+      "yearPublished": 2018
+    },
+    {
+      "id": "f05f",
+      "type": "book",
+      "title": "Book 3",
+      "author": "Author 3",
+      "yearPublished": 2022
+    }
+  ],
+  "movies": [
+    {
+      "id": "f0ec",
+      "type": "movie",
+      "title": "Superman movie",
+      "director": "Director 1",
+      "yearReleased": 2015
+    },
+    {
+      "id": "s1dc",
+      "type": "movie",
+      "title": "Another Superman movie",
+      "director": "Director 2",
+      "yearReleased": 2025
+    }
+  ],
+  "media": [
+    {
+      "id": "8c1c",
+      "type": "book",
+      "title": "Book 1",
+      "author": "Author 1",
+      "yearPublished": 2019
+    },
+    {
+      "id": "f0ec",
+      "type": "movie",
+      "title": "Superman movie",
+      "director": "Director 1",
+      "yearReleased": 2015
+    },
+    {
+      "id": "f43b",
+      "type": "book",
+      "title": "Book 2",
+      "author": "Author 2",
+      "yearPublished": 2018
+    },
+    {
+      "id": "s1dc",
+      "type": "movie",
+      "title": "Another Superman movie",
+      "director": "Director 2",
+      "yearReleased": 2025
+    },
+    {
+      "id": "f05f",
+      "type": "book",
+      "title": "Book 3",
+      "author": "Author 3",
+      "yearPublished": 2022
+    }
+  ]
+}
