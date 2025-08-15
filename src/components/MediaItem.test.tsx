@@ -6,7 +6,7 @@ describe("MediaItem tests", () => {
     const requiredProps = {
       media: {
         id: "8c1c",
-        type: "book",
+        type: "book" as const,
         title: "Book 1",
         author: "Author 1",
         yearPublished: 2019,
