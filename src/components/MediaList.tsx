@@ -19,8 +19,7 @@ export function MediaList({
 }: MediaListProps) {
   // accept searchTerm and filterBy (mapping, movie|book -> type)
   const updatedList = useMemo(() => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    let filterFn = (m: AvailableMediaType) => true;
+    let filterFn: (m: AvailableMediaType) => boolean = () => true;
     if (filterBy === "book" || filterBy === "movie") {
       filterFn = ({ type }) => type === filterBy;
     } else {
